@@ -1,0 +1,67 @@
+.messagemodule {
+    background: url('https://oir.mobi/uploads/posts/2021-03/thumbs/1616528591_6-p-fon-dlya-chata-6.jpg');
+    position: relative;
+    padding-left: 10px;
+    text-align: left;
+
+}
+
+.message {
+    color:black;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:-10px;
+    margin-bottom:-25px;
+    text-align: left;
+
+}
+.name {
+    position: relative;
+    left: 10px;
+    text-align: left;
+
+}
+.time {
+    text-align: right;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid white;
+    float:left top;
+    position: relative;
+    top: 27px;
+    right: 8px;
+    margin-left:10px;
+}
+.notice {
+    width: 300px;
+    border-radius: 16px;
+    display: inline-block;
+    position: relative;
+    background-color: #E6E6FA;
+    opacity:.85;
+    margin-top:10px;
+    margin-bottom:10px;
+
+
+}
+.notice::after {
+    content: "";
+    width: 39px;
+    height: 27px;
+    border-left: 3px ;
+    border-bottom: 5px ;
+    position: absolute;
+    bottom: 0px;
+    left: -27px;
+    background: radial-gradient(circle at top left, transparent 58%, #E6E6FA 10%);
+
+}
