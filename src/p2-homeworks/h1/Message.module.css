@@ -1,5 +1,4 @@
 .messagemodule {
-    background: url('https://oir.mobi/uploads/posts/2021-03/thumbs/1616528591_6-p-fon-dlya-chata-6.jpg');
     position: relative;
     padding-left: 10px;
     text-align: left;
@@ -35,7 +34,6 @@
     margin: 0 auto;
     border-radius: 50%;
     border: 1px solid white;
-    float:left top;
     position: relative;
     top: 27px;
     right: 8px;
@@ -60,7 +58,7 @@
     border-left: 3px ;
     border-bottom: 5px ;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: -27px;
     background: radial-gradient(circle at top left, transparent 58%, #E6E6FA 10%);
 

@@ -10,7 +10,7 @@ type MessageType = {
 export const Message = (props:MessageType) => {
     return (
         <div className={style.messagemodule}>
-            <img className={style.img} src={props.avatar}/>
+            <img className={style.img} src={props.avatar} alt={'img'}/>
             <div className={style.notice}>
                 <h4 className={style.name}>{props.name}</h4>
                 <p className={style.message}>{props.message}</p>

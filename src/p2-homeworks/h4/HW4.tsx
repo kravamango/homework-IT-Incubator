@@ -24,6 +24,7 @@ function HW4() {
             <hr/>
             homeworks 4
 
+
             <div className={s.column}>
                 <SuperInputText
                     value={text}
@@ -34,13 +35,19 @@ function HW4() {
                 />
 
                 <SuperInputText
-                    className={s.blue} // проверьте, рабоет ли смешивание классов
+                    className={s.blue} // проверьте, работает ли смешивание классов
                 />
+
 
                 {/*----------------------------------------------------*/}
 
-                <SuperButton>
+                <SuperButton
+                     // пропсу с булевым значением не обязательно указывать true
+                    onClick={showAlert}
+                >
                     default
+
+
                 </SuperButton>
 
                 <SuperButton
@@ -54,13 +61,14 @@ function HW4() {
                     disabled
                 </SuperButton>
 
+
                 {/*----------------------------------------------------*/}
 
                 <SuperCheckbox
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    some text{/*//   этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
